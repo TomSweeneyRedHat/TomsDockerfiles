@@ -1,0 +1,3 @@
+FROM python
+COPY RestMonitor.py RestMonitor.config WebServerList.txt ./
+CMD ["python","./RestMonitor.py"] 
