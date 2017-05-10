@@ -106,7 +106,7 @@ drwxr-xr-x.  19 root root 249 Apr 20 23:23 var/
 ***RestMonitor***
 
 ```
-docker run restmonitor
+# docker run restmonitor
 Using this config file: RestMonitor.config
 
 ############
@@ -161,7 +161,7 @@ Sleeping for 60 seconds...
 
 ***WhaleSayFortune***
 ```
-docker run cowsayfortune
+# docker run cowsayfortune
  ______________________ 
 < Violence is molding. >
  ---------------------- 
