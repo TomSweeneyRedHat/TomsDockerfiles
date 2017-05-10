@@ -6,7 +6,8 @@ testing.  They work for me, but buyer beware!
 
 I've also included an assortment of scripts that are used by these Dockerfiles.
 
-** To Run **
+**To Run**
+
 - Clone this repository to your test machine.
 - Copy the interesting Dockerfile.{toolname} as listed below to ./Dockerfile.  
 - Build the image:
@@ -19,7 +20,9 @@ I've also included an assortment of scripts that are used by these Dockerfiles.
     - docker push {toolname}
 
 **Tools** 
+
 ***HelloFromContainer***
+
 This runs a small python script that prints out "Hello World from Container Land" a few times before stopping.  It's useful to see if python can run in the container and if output is viewable.  
 
 Related files:  
@@ -27,6 +30,7 @@ Related files:
   * HelloFromContainer.py 
   
 ***LsRoot***
+
 This sets up Fedora in the container and then does a 'ls -alF' on the root directory.  It shows that Fedora is up and running in the container and that the file systems are working properly.  
 
 Related files:  
@@ -48,6 +52,7 @@ Related files:
   * WebServerList.txt
 
 ***WhaleSayFortune***
+
 From Docker's getting started tutorial, this will print a whale with a fortune in it's blow.  This is useful to check the general container environment.
 
 Related files:
