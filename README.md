@@ -21,6 +21,21 @@ I've also included an assortment of scripts that are used by these Dockerfiles.
 
 **Tools** 
 
+***CreateVolume***
+
+This creates a small text file in the /mydata directory/volume in the container.  
+
+To run this particular container:
+
+# docker build -t test_volume .  
+# docker run -it --rm test_volume sh
+/ # ls -alF /mydata  
+
+Last command should show 'hi.txt' in the /mydata directory.
+
+Related files:
+  * Dockerfile.CreateVolume
+
 ***HelloFromContainer***
 
 This runs a small python script that prints out "Hello World from Container Land" a few times before stopping.  It's useful to see if python can run in the container and if output is viewable.  
